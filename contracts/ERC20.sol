@@ -1,6 +1,7 @@
 pragma solidity ^0.4.24;
 
 import "./IERC20.sol";
+import "./SafeMath.sol";
 
 contract ERC20 is IERC20 {
     constructor () public {
