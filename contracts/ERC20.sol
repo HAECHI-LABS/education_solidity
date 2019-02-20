@@ -4,8 +4,6 @@ import "./IERC20.sol";
 import "./SafeMath.sol";
 
 contract ERC20 is IERC20 {
-    constructor () public {
-    }
 
     function transfer(address to, uint256 value) external returns (bool) {
         
