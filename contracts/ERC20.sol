@@ -40,7 +40,7 @@ contract ERC20 is IERC20 {
     }
 
     function _mint(address target, uint256 value) internal {
-        _balances[target] = value;
+        _balances[target] = _balances[target].add(value);
         _totalSupply = _totalSupply.add(value);
     }
 
