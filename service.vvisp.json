@@ -1,27 +1,15 @@
 {
   "serviceName": "Haechi",
   "variables" : {
-    "varName": "constant"
+    "totalSupply": "500000000000000000000"
   },
   "contracts": {
-    "ContractKeyName1": {
-      "upgradeable": true,
-      "path": "path/to/your/contract/ContractV0.sol",
-      "initialize": {
-        "functionName": "initialize",
-        "arguments": ["argument1", "argument2"]
-      }
-    },
-    "ContractKeyName2": {
-      "path": "path/to/your/contract/Contract.sol",
+    "HaechiToken": {
+      "upgradeable": false,
+      "path": "contracts/HaechiToken.sol",
       "constructorArguments": [
-        "${contracts.ContractKeyName1.address}",
-        "${variables.varName}"
-      ],
-      "initialize": {
-        "functionName": "initialize",
-        "arguments": ["argument1", "argument2"]
-      }
+        "${variables.totalSupply}"
+      ]
     }
   }
 }

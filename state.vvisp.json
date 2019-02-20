@@ -1,0 +1,11 @@
+{
+  "contracts": {
+    "HaechiToken": {
+      "upgradeable": false,
+      "address": "0x3f97850Dd0D8C31C09Cd0c1466BBDcd585Bcb1f1",
+      "fileName": "HaechiToken.sol"
+    }
+  },
+  "serviceName": "Haechi",
+  "registry": "0x2446Db37045EdFC4A1456A0f7F2220dF0dB1dA91"
+}
