@@ -2,7 +2,7 @@ pragma solidity ^0.4.24;
 
 import "./IERC20Mintable.sol";
 
-contract IERC20Burnable is IERC20praprafasdfa {
+contract IERC20Burnable is IERC20Mintable {
 
     function burn(uint256 value) public returns (bool);
 
